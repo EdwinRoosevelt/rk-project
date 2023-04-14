@@ -6,16 +6,17 @@ import Project from "./pages/Project";
 import Contacts from "./pages/Contacts";
 
 const App = () => {
-  return (
-    <Fragment>
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/projects" element={<Project />} />
-        <Route exact path="/contact" element={<Contacts />} />
-      </Routes>
-    </Fragment>
-  );
+	return null;
+	// (
+	//   <Fragment>
+	//     <Routes>
+	//       <Route exact path="/" element={<Home />} />
+	//       <Route exact path="/about" element={<About />} />
+	//       <Route exact path="/projects" element={<Project />} />
+	//       <Route exact path="/contact" element={<Contacts />} />
+	//     </Routes>
+	//   </Fragment>
+	// );
 };
 
 export default App;
